@@ -1,0 +1,13 @@
+{ "alertConfig": {
+    "speed": 1,
+    "textColor":"rgb(255, 255, 255)",
+    "textSize": 20,
+    "imageUrl": "https://example.com/image.png",
+    "videoUrl": "",
+    "width": 200,
+    "height": 100,
+    "soundUrl": "https://example.com/sound.mp3",
+    "wigetDuration": 10,
+    "message": "{{name}} just followed!"
+}
+}

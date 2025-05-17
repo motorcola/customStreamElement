@@ -1,13 +1,59 @@
 {
 
         "alertConfig": {
-            "speed": 5, 
-            "textColor": "#FFFFFF",
-            "imageUrl": "https://example.com/image.png", 
-            "width": 200, 
-            "height": 100, 
-            "soundUrl": "https://example.com/sound.mp3", 
-            "message:": "New Follower!"
+            "speed": {
+                "type": "number",
+                "label": "Speed",
+                "value": 1
+            }, 
+            "textColor": {
+                "type": "colorpicker",
+                "label": "Text Color",
+                "value": "rgb(255, 255, 255)"
+            },
+            "textSize": {
+                "type": "slider",
+                "label": "Text Size",
+                "value": 20,
+                "min": 10,
+                "max": 100
+            },
+            "imageUrl": {
+                "type": "image-input",
+                "label": "Image URL",
+                "value": "https://example.com/image.png"
+            }, 
+            "videoUrl": {
+                "type": "video-input",
+                "label": "Video URL",
+                "value": ""},
+            "width": {
+                "type": "slider",
+                "label": "Width",
+                "value": 200,
+                "min": 100,
+                "max": 1920
+            }, 
+            "height": {"type": "slider",
+                "label": "Height",
+                "value": 100,
+                "min": 100,
+                "max": 1080
+            },
+            "soundUrl": {"type": "sound-input",
+            "label": "Sound URL",
+            "value":"https://example.com/sound.mp3"
+            },
+            "wigetDuration": {
+                "type": "number",
+                "label": "Widget Duration",
+                "value": 10
+            },
+            "message:": {
+                "type":"string",
+                "label":"Message",
+                "value":"{{name}} just followed!"
+        } 
         }
  
         
