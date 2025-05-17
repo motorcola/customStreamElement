@@ -1,0 +1,14 @@
+{
+
+        "alertConfig": {
+            "speed": 5, 
+            "textColor": "#FFFFFF",
+            "imageUrl": "https://example.com/image.png", 
+            "width": 200, 
+            "height": 100, 
+            "soundUrl": "https://example.com/sound.mp3", 
+            "message:": "New Follower!"
+        }
+ 
+        
+}
